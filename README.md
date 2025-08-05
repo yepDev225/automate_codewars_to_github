@@ -1,4 +1,4 @@
-# 🔁 Codewars Kata Sync to GitHub
+# 🔁 Codewars Kata Sync to GitHub V1.0
 
 A simple and fully automated Python tool that **fetches completed Codewars katas (exercises + solutions)** for a given user and **pushes them to a personal GitHub repository**.
 
