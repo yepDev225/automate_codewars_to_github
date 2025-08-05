@@ -46,18 +46,8 @@ A simple and fully automated Python tool that **fetches completed Codewars katas
 
 🔐 Never commit your .env file to GitHub. It contains sensitive information.
 
-## 📁 .gitignore Example
-
-Create a .gitignore file in the project root with the following content:
-    ```bash
-    .env
-    bd.json
-    bd.py
-    file_gestion.py
-    main.py
-    codewars.py
-    github.py
-
+## 📁 .gitignore
+remove comments from the .gitignore file
 This ensures your config and internal scripts are not pushed to your GitHub repo.
 
 ## ▶️ Usage
