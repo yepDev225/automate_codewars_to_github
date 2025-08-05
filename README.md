@@ -17,10 +17,10 @@ A simple and fully automated Python tool that **fetches completed Codewars katas
 
 - Python 3.8+
 - A Codewars account
-- A GitHub repository (can be empty)
+- A GitHub repository (empty)
 - Git installed on your system
 - Google Chrome (used by Selenium for login)
-- GitHub access token (if using HTTPS)
+- GitHub access token (using HTTPS)
 
 ---
 
@@ -31,12 +31,14 @@ A simple and fully automated Python tool that **fetches completed Codewars katas
    ```bash
    cd automate_codewars_to_github
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 ## ⚙️ Configuration
 
 1. Create a .env file in the project root directory.
 2. Add the following environment variables to it:
+    ```bash
     USERNAME=your_codewars_username
     EMAIL=your_codewars_email
     PWD=your_codewars_password
@@ -47,6 +49,7 @@ A simple and fully automated Python tool that **fetches completed Codewars katas
 ## 📁 .gitignore Example
 
 Create a .gitignore file in the project root with the following content:
+    ```bash
     .env
     bd.json
     bd.py
